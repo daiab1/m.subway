@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+
+#container h2{
+    text-align: center;
+    font-family: 'Jalnan';
+}
+
+/*메인슬라이더*/
+.mainSlider a img{
+    width: 100%;
+} 
+
+/*인기메뉴*/
+.hotMenu{
+    margin-top: 50px;
+}
+
+.hotMenuSlider{
+    margin-top: 50px;
+    position: relative;
+}
+
+.hotMenuSlider div{
+    float: left;
+    width: 100%;
+    text-align: center;
+   
+}
+.hotMenuSlider .slick-slide{
+    padding: 0 4px;
+}
+.hotMenuSlider .slick-slide img{
+    display: block;
+    width: 100%;
+    
+}
+
+.hotMenuSlider.slick-prev.slick-arrow{
+   display: none;
+}
+.hotMenuSlider h3{
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+
+.kcal{
+    color: #2bbe6e;
+    font-size: 0.9em;
+}
+.slideBtn{
+    display: none;
+}
+
+
+/*주문버튼*/
+.orderArea{
+    margin-top: 30px;
+    padding:0 4%;
+}
+.orderArea div{
+    float: left;
+    width:50%;
+    background: #fdce0b;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+}
+.orderArea div a{
+    display: block;
+    height: 100%;
+    padding: 10% 0
+}
+.orderArea div span{
+    color: #fff;
+    font-size: 1.1em;
+}
+.orderArea div h3{
+    font-size: 1.3em;
+    color: #454543;
+}
+
+.orderArea .deliveryBtn{
+    background: #2cae4a;
+    border-radius: 0 20px 20px 0;
+}
+
+
+/*이벤트*/
+.eventArea{
+    margin-top: 60px;
+}
+.eventArea h2{
+    margin-bottom: 30px;
+}
+
+.eventSlider{
+    text-align: center;
+    margin: 0 auto;
+}
+.eventSlider a{
+     display: block;
+}
+.eventSlider a img{
+    width: 88%;
+}
+ 
+/*매장찾기*/
+.storeArea{
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+.storeArea h2{
+     margin-bottom: 30px;
+}
+.storeArea img{
+    width: 100%;
+}
+.storeSBtn{
+    width: 35%;
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+}
+
+.storeBack{
+    background: url(../images/main/storeBack.png)no-repeat center center;
+    width: 100%;
+    padding-top:230px;
+    height: auto;
+    background-size: contain;
+}
+
+/*뉴스*/
+.newArea{
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+.plusBtn{
+    position: absolute;
+    right: 3%;
+    top: 9%;   
+}
+.newArea a img{
+    width: 90%;
+}
+.newsCon{
+    margin-top: 30px;
+}
+.newsCon li {
+    border-bottom: 1px solid #333;
+    width: 90%;
+    margin: 0 5%;
+    text-align: left;
+    line-height: 50px;
+    text-indent:17px;
+}
+.newsCon li a{
+    display: block;
+    widows: 100%;
+}
+
+/*sns*/
+.snsAra{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.snsAra p{
+   padding: 15px 0;
+   font-style: italic;
+   line-height: 15px;
+   font-weight: 100;
+}
+.instaImages{
+    padding: 0 20px;
+    margin-bottom: 
+}
+.instaImages li{
+    float: left;
+    width: calc(50% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.instaImages li:nth-child(2n){
+    margin-right: 0;
+}
+.instaImages li a{
+    display: block;
+}
+.instaImages li a img{
+    width:100%;
+    display: block;
+}
